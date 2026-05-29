@@ -1,0 +1,26 @@
+# Ignorar subpasta de outros ícones
+acmais/
+
+# PyInstaller - artefatos de compilação
+build/
+dist/
+*.spec
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Executáveis compilados (o .exe gerado pelo PyInstaller)
+MergeApp.exe
+Instalador_MesclarPDFs.exe
+
+# VS Code / IDEs
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Variáveis de ambiente
+.env
