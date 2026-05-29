@@ -41,7 +41,7 @@ def set_window_icon(root):
 
 # ----- Auto‑update ----------------------------------------------------------
 def check_for_updates():
-    repo = "plenaryan/merge"
+    repo = "plenoryan/Merge"
     api_url = f"https://api.github.com/repos/{repo}/releases/latest"
     try:
         with urllib.request.urlopen(api_url) as resp:
